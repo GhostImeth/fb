@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	background-color: rgb(248, 248, 248);
+}
+
+.logo .txtM{
+	color: rgb(41, 113, 248);
+	font-size: 55px;
+	font-family: "Exo 2", sans-serif;
+	font-style: bold;
+	font-weight: 700;
+
+}
+.LogingP{
+	/*position: absolute;*/
+	
+	position:relative;
+	align-items: center;
+	width: 360px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+	
+	box-sizing: border-box;
+	box-shadow:inset;
+	border-radius: 8px;
+	background-color: white;
+	
+	padding-bottom: 15px;
+	box-shadow:0px 2px 8px 4px rgb(202, 188, 188) ;
+}
+.LogingP input{
+	margin-left: 0px;
+	font-size: 16px;
+	border: 1px rgb(202, 202, 202) solid;
+}
+#tb1{
+	width: 300px;
+	height: 50px;
+	border-radius: 8px;
+	padding-left: 7px;
+
+}
+#tb2{
+	width: 300px;
+	height: 50px;
+	border-radius: 8px;
+	padding-left: 7px;
+
+}
+.txt2{
+	margin-top: 10px;
+}
+.btn{
+	margin-left: 0px;
+	margin-top: 7px;
+	text-align: center;
+	width: 313px;
+	height: 55px;
+	background-color: rgb(41, 113, 248);
+	border-radius: 8px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight:700;
+}
+.txtL{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 500;
+	
+}
+.fblink{
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 15px;
+	text-align: center;
+	
+	padding-top: 10px;
+	border-radius: 8px;
+
+}
+.btn2{
+	margin-left: 0px;
+	margin-top: 7px;
+	text-align: center;
+	width: 180px;
+	height: 55px;
+	background-color: rgb(40, 201, 40);
+	border-radius: 8px;
+	border: 0px solid transparent;
+	font-family: sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight:700;
+}
+.para{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: 5;
+	margin-left: 130px;
+	margin-top: -30px;
+	margin-right: 90px;
+}
+
+@media screen and (min-width :360px) {
+	.para{
+	
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-weight: 5;
+		margin-left: 80px;
+		margin-top: -30px;
+		margin-right: 50px;
+		font-size: 12px;
+	}
+}
+@media screen and (min-width :767px) {
+	.para{
+	
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-weight: 5;
+		margin-left: 80px;
+		margin-top: -30px;
+		margin-right: 50px;
+		font-size: 12px;
+	}
+}
+@media screen and (min-width :1116px) {
+
+	.logo p{
+		position: relative;
+		text-align: justify;
+		display:flex;
+		margin-top: 15%;
+		margin-left: 10%;
+		
+		
+	}
+	.logo h2{
+		position: relative;
+		text-align: left;
+		margin-left: 4%;
+		
+	}
+	.LogingP{
+		margin-right: -50%;
+		margin-top: -18%;
+	}
+}
